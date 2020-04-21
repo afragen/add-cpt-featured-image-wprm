@@ -1,0 +1,38 @@
+{
+    "name": "afragen/add-cpt-featured-image-wprm",
+    "description": "Add the WP Recipe Maker selected image as the featured image to the selected Custom Post Type.",
+    "type": "wordpress-plugin",
+    "keywords": [
+        "featured image",
+        "custom post type",
+        "WP Recipe Maker"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andy Fragen",
+            "email": "andy@thefragens.com",
+            "homepage": "https://thefragens.com",
+            "role": "Developer"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/afragen/add-cpt-featured-image-wprm"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/afragen/add-cpt-featured-image-wprm/issues",
+        "source": "https://github.com/afragen/add-cpt-featured-image-wprm"
+    },
+    "prefer-stable": true,
+    "require": {
+        "php": ">=5.6"
+    },
+    "scripts": {
+        "post-update-cmd": [
+            "wp i18n make-pot . languages/add-cpt-featured-image-wprm.pot"
+        ]
+    }
+}
