@@ -8,17 +8,17 @@
  */
 
 /**
- * Plugin Name: Add CPT Featured Image from WP Recipe Maker
- * Plugin URI: https://github.com/afragen/add-cpt-featured-image-wprm
- * Description: Add the WP Recipe Maker selected image as the featured image to the selected Custom Post Type.
- * Author: Andy Fragen
- * Version: 0.1.0
- * License: MIT
- * Domain Path: /languages
- * Text Domain: add-cpt-featured-image
+ * Plugin Name:       Add CPT Featured Image from WP Recipe Maker
+ * Plugin URI:        https://github.com/afragen/add-cpt-featured-image-wprm
+ * Description:       Add the WP Recipe Maker selected image as the featured image to the selected Custom Post Type.
+ * Author:            Andy Fragen
+ * Version:           0.2.0
+ * License:           MIT
+ * Domain Path:       /languages
+ * Text Domain:       add-cpt-featured-image-wprm
  * GitHub Plugin URI: https://github.com/afragen/add-cpt-featured-image-wprm
  * Requires at least: 5.2
- * Requires PHP: 5.6
+ * Requires PHP:      5.6
  */
 
 namespace Fragen\Add_CPT_Featured_Image_WPRM;
