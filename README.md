@@ -2,7 +2,6 @@
 
 * Plugin Name: Add CPT Featured Image from WP Recipe Maker
 * Author: Andy Fragen
-* Version: 0.1.0
 * License: MIT
 * Requires at least: 5.2
 * Requires PHP: 5.6
@@ -17,3 +16,15 @@ It uses the following plugins.
 * [Recipe CPT](https://github.com/afragen/recipe-cpt)
 * [WP Recipe Maker](https://wordpress.org/plugins/wp-recipe-maker/)
 * [WP Ultimate Post Grid](https://wordpress.org/plugins/wp-ultimate-post-grid/)
+
+The CPT slug can be changed using the following filter hook.
+
+```php
+add_filter(
+	'acfi_wprm_cpt_slug',
+	function( $cpt_slug ) {
+		$cpt_slug = 'my-cpt-slug';
+		return $cpt_slug;
+	}
+);
+```

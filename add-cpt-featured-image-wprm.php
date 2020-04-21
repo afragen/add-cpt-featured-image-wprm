@@ -12,7 +12,7 @@
  * Plugin URI:        https://github.com/afragen/add-cpt-featured-image-wprm
  * Description:       Add the WP Recipe Maker selected image as the featured image to the selected Custom Post Type.
  * Author:            Andy Fragen
- * Version:           0.2.0
+ * Version:           0.3.0
  * License:           MIT
  * Domain Path:       /languages
  * Text Domain:       add-cpt-featured-image-wprm
@@ -31,7 +31,7 @@ if ( ! defined( 'WPINC' ) ) {
 	die;
 }
 
-$cpt_slug = 'kj-recipe';
+$cpt_slug = \apply_filters( 'acfi_wprm_cpt_slug', 'kj-recipe' );
 add_action( "save_post_{$cpt_slug}", __NAMESPACE__ . '\set_featured_image', 10, 2 );
 
 /**

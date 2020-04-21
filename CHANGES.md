@@ -1,5 +1,8 @@
 [unreleased]
 
+#### 0.3.0 /2020-04-21
+* add filter `acfi_wprm_cpt_slug` for setting CPT slug
+
 #### 0.2.0 / 2020-04-20
 * add composer.json
 * add POT
