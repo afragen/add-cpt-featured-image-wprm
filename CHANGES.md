@@ -1,5 +1,8 @@
 [unreleased]
 
+#### 0.3.1 / 2020-04-28
+* fix PHP error at initial new recipe
+
 #### 0.3.0 /2020-04-21
 * add filter `acfi_wprm_cpt_slug` for setting CPT slug
 
