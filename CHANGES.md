@@ -1,5 +1,7 @@
 [unreleased]
 
+* add more error checking
+
 #### 0.3.1 / 2020-04-28
 * fix PHP error at initial new recipe
 

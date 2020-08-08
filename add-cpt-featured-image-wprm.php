@@ -45,7 +45,7 @@ add_action( "save_post_{$cpt_slug}", __NAMESPACE__ . '\set_featured_image', 10, 
 function set_featured_image( $postID, $post ) {
 	if ( class_exists( 'WPRM_Recipe' ) ) {
 		$content = \parse_blocks( $post->post_content );
-		if ( isset( $content[0] ) ) {
+		if ( isset( $content[0], $content[0]['attrs'], $content[0]['attrs']['id'] ) ) {
 			$recipe_id    = $content[0]['attrs']['id'];
 			$recipe       = get_post( $recipe_id );
 			$thumbnail_id = ( new \WPRM_Recipe( $recipe ) )->image_id();
