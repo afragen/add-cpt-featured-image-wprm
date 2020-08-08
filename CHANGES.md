@@ -1,5 +1,6 @@
 [unreleased]
 
+#### 0.3.2 / 2020-08-07
 * add more error checking
 
 #### 0.3.1 / 2020-04-28

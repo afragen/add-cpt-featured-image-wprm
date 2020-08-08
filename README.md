@@ -5,7 +5,6 @@
 * License: MIT
 * Requires at least: 5.2
 * Requires PHP: 5.6
-* Tested up to: 5.4
 
 Add the WP Recipe Maker selected image as the featured image to the selected Custom Post Type.
 
