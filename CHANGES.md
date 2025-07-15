@@ -1,5 +1,8 @@
 [unreleased]
 
+#### 0.4.0 / 2025-07-15
+* update bootstrap
+
 #### 0.3.2 / 2020-08-07
 * add more error checking
 
